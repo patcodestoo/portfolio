@@ -1,0 +1,31 @@
+#patricio-photo{
+
+    width: 30%;
+    /* background-color: aqua; */
+    padding: 1rem;
+
+}
+
+#about-layout{
+
+    display: flex;
+    flex-direction: row;
+    /* background-color: brown; */
+    align-items: flex-start;
+}
+
+#about-layout h4{
+
+    width: 60%;
+    padding: 1rem;
+    
+}
+
+@media(max-width:768px){
+
+#about-layout{
+flex-direction:column ;
+
+}
+
+}
